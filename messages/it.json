@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Home",
+    "prodotti": "Prodotti",
+    "contatti": "Contatti",
+    "cta": "Richiedi un preventivo"
+  },
+  "hero": {
+    "eyebrow": "Ceramica per il bagno, dal 1987",
+    "title": "Forma e materia, per il bagno che dura nel tempo",
+    "subtitle": "Lavabi, rivestimenti e rubinetteria in ceramica, progettati e prodotti in Italia. Esportiamo in tutta Europa, con un catalogo pensato per architetti, rivenditori e studi di progettazione.",
+    "cta": "Scopri i prodotti"
+  },
+  "export": {
+    "title": "Un catalogo che parla la lingua dei tuoi clienti",
+    "description": "Lavoriamo con distributori e studi di architettura in Italia, Germania e nel resto d'Europa: ogni scheda prodotto è disponibile nella lingua del tuo mercato."
+  },
+  "products": {
+    "eyebrow": "Prodotti",
+    "title": "Tre linee, una sola idea di qualità",
+    "items": [
+      {
+        "name": "Lavabi",
+        "description": "Forme essenziali, superfici pensate per resistere nel tempo senza perdere la loro finitura originale."
+      },
+      {
+        "name": "Rivestimenti",
+        "description": "Piastrelle e rivestimenti in gres e ceramica, per ambienti residenziali e contract."
+      },
+      {
+        "name": "Rubinetteria",
+        "description": "Una selezione di rubinetteria in ottone e finiture opache, sviluppata con i nostri partner tecnici."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Come lavoriamo",
+    "title": "Dalla richiesta al cantiere",
+    "steps": [
+      { "title": "Richiesta", "description": "Ci scrivi con le specifiche del progetto: quantità, tempistiche, mercato di destinazione." },
+      { "title": "Campionatura", "description": "Ti inviamo campioni fisici e schede tecniche complete, nella tua lingua." },
+      { "title": "Produzione", "description": "Produzione in stabilimento, con controlli qualità su ogni lotto." },
+      { "title": "Spedizione", "description": "Consegna in tutta Europa, con imballi pensati per il trasporto di materiale ceramico." }
+    ]
+  },
+  "ctaBand": {
+    "title": "Hai un progetto in corso?",
+    "description": "Inviaci le specifiche: rispondiamo con un preventivo entro 2 giorni lavorativi.",
+    "cta": "Contattaci"
+  },
+  "footer": {
+    "tagline": "Ceramica per il bagno, prodotta in Italia dal 1987.",
+    "linksTitle": "Pagine",
+    "contactTitle": "Contatti",
+    "rights": "Tutti i diritti riservati.",
+    "demoNotice": "Questo è un progetto dimostrativo realizzato da Plaster."
+  },
+  "prodotti": {
+    "eyebrow": "Prodotti",
+    "title": "Il catalogo completo",
+    "intro": "Ogni linea è disponibile in più finiture. Scheda tecnica e campioni disponibili su richiesta.",
+    "items": [
+      { "name": "Lavabi da appoggio", "description": "Diametri da 40 a 60 cm, in 6 finiture. Adatti a installazioni residenziali e contract." },
+      { "name": "Lavabi sospesi", "description": "Linea compatta, pensata per bagni di dimensioni contenute senza rinunciare al comfort." },
+      { "name": "Rivestimenti gres 20x20", "description": "Formato classico, superficie opaca o lucida, resistente al gelo per esterni." },
+      { "name": "Rivestimenti gres 60x120", "description": "Grande formato per ambienti moderni, effetto pietra naturale." },
+      { "name": "Rubinetteria serie Volta", "description": "Finitura ottone spazzolato, miscelatore monocomando." },
+      { "name": "Rubinetteria serie Piana", "description": "Design essenziale, disponibile anche in nero opaco." }
+    ]
+  },
+  "contatti": {
+    "eyebrow": "Contatti",
+    "title": "Parliamo del tuo progetto",
+    "description": "Compila il modulo con le specifiche: quantità indicativa, tempistiche e mercato di destinazione. Ti rispondiamo entro 2 giorni lavorativi.",
+    "formName": "Nome e cognome",
+    "formCompany": "Azienda",
+    "formEmail": "Email",
+    "formMessage": "Messaggio",
+    "formSubmit": "Invia richiesta",
+    "directTitle": "Oppure scrivici direttamente"
+  }
+}

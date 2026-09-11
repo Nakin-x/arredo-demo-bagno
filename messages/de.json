@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "prodotti": "Produkte",
+    "contatti": "Kontakt",
+    "cta": "Angebot anfordern"
+  },
+  "hero": {
+    "eyebrow": "Badkeramik seit 1987",
+    "title": "Form und Material, für ein Bad, das Bestand hat",
+    "subtitle": "Waschbecken, Fliesen und Armaturen aus Keramik, entworfen und hergestellt in Italien. Wir exportieren europaweit, mit einem Katalog für Architekten, Händler und Planungsbüros.",
+    "cta": "Produkte entdecken"
+  },
+  "export": {
+    "title": "Ein Katalog, der die Sprache Ihres Marktes spricht",
+    "description": "Wir arbeiten mit Händlern und Architekturbüros in Italien, Deutschland und ganz Europa zusammen: jedes Produktblatt ist in der Sprache Ihres Marktes verfügbar."
+  },
+  "products": {
+    "eyebrow": "Produkte",
+    "title": "Drei Linien, eine Vorstellung von Qualität",
+    "items": [
+      { "name": "Waschbecken", "description": "Klare Formen, Oberflächen, die ihre ursprüngliche Optik über Jahre behalten." },
+      { "name": "Fliesen", "description": "Feinsteinzeug- und Keramikfliesen für Wohn- und Objektbereiche." },
+      { "name": "Armaturen", "description": "Eine Auswahl an Messingarmaturen mit matten Oberflächen, entwickelt mit unseren technischen Partnern." }
+    ]
+  },
+  "process": {
+    "eyebrow": "So arbeiten wir",
+    "title": "Von der Anfrage bis zur Baustelle",
+    "steps": [
+      { "title": "Anfrage", "description": "Sie senden uns die Projektspezifikationen: Mengen, Zeitplan, Zielmarkt." },
+      { "title": "Muster", "description": "Wir senden Ihnen Materialmuster und vollständige technische Datenblätter in Ihrer Sprache." },
+      { "title": "Produktion", "description": "Herstellung im eigenen Werk, mit Qualitätskontrolle für jede Charge." },
+      { "title": "Versand", "description": "Lieferung europaweit, mit Verpackungen, die für Keramikmaterial entwickelt wurden." }
+    ]
+  },
+  "ctaBand": {
+    "title": "Haben Sie ein laufendes Projekt?",
+    "description": "Senden Sie uns die Spezifikationen: wir antworten innerhalb von 2 Werktagen mit einem Angebot.",
+    "cta": "Kontakt aufnehmen"
+  },
+  "footer": {
+    "tagline": "Badkeramik, hergestellt in Italien seit 1987.",
+    "linksTitle": "Seiten",
+    "contactTitle": "Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "demoNotice": "Dies ist ein Demonstrationsprojekt von Plaster."
+  },
+  "prodotti": {
+    "eyebrow": "Produkte",
+    "title": "Der vollständige Katalog",
+    "intro": "Jede Linie ist in mehreren Oberflächen erhältlich. Technische Datenblätter und Muster auf Anfrage.",
+    "items": [
+      { "name": "Aufsatzwaschbecken", "description": "Durchmesser von 40 bis 60 cm, in 6 Oberflächen. Geeignet für Wohn- und Objektinstallationen." },
+      { "name": "Wandhängende Waschbecken", "description": "Kompakte Linie, für kleinere Bäder ohne Komfortverzicht." },
+      { "name": "Feinsteinzeugfliesen 20x20", "description": "Klassisches Format, matte oder glänzende Oberfläche, frostbeständig für den Außenbereich." },
+      { "name": "Feinsteinzeugfliesen 60x120", "description": "Großformat für moderne Räume, Natursteinoptik." },
+      { "name": "Armaturenserie Volta", "description": "Gebürstete Messingoberfläche, Einhebelmischer." },
+      { "name": "Armaturenserie Piana", "description": "Klares Design, auch in mattem Schwarz erhältlich." }
+    ]
+  },
+  "contatti": {
+    "eyebrow": "Kontakt",
+    "title": "Lassen Sie uns über Ihr Projekt sprechen",
+    "description": "Füllen Sie das Formular mit Ihren Angaben aus: geschätzte Menge, Zeitplan und Zielmarkt. Wir antworten innerhalb von 2 Werktagen.",
+    "formName": "Vollständiger Name",
+    "formCompany": "Unternehmen",
+    "formEmail": "E-Mail",
+    "formMessage": "Nachricht",
+    "formSubmit": "Anfrage senden",
+    "directTitle": "Oder kontaktieren Sie uns direkt"
+  }
+}

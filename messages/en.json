@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Home",
+    "prodotti": "Products",
+    "contatti": "Contact",
+    "cta": "Request a quote"
+  },
+  "hero": {
+    "eyebrow": "Bathroom ceramics since 1987",
+    "title": "Form and material, for a bathroom built to last",
+    "subtitle": "Basins, tiles and taps in ceramic, designed and produced in Italy. We export across Europe, with a catalogue built for architects, retailers and design studios.",
+    "cta": "Explore products"
+  },
+  "export": {
+    "title": "A catalogue that speaks your market's language",
+    "description": "We work with distributors and architecture studios across Italy, Germany and the rest of Europe: every product sheet is available in your market's language."
+  },
+  "products": {
+    "eyebrow": "Products",
+    "title": "Three lines, one idea of quality",
+    "items": [
+      { "name": "Basins", "description": "Essential shapes, surfaces built to keep their original finish over time." },
+      { "name": "Tiles", "description": "Ceramic and stoneware tiles for residential and contract spaces." },
+      { "name": "Taps", "description": "A selection of brass fixtures with matte finishes, developed with our technical partners." }
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "From request to site",
+    "steps": [
+      { "title": "Request", "description": "You send us project specs: quantities, timing, destination market." },
+      { "title": "Samples", "description": "We send physical samples and full technical sheets, in your language." },
+      { "title": "Production", "description": "Manufactured in-house, with quality checks on every batch." },
+      { "title": "Shipping", "description": "Delivery across Europe, with packaging designed for ceramic materials." }
+    ]
+  },
+  "ctaBand": {
+    "title": "Have a project in progress?",
+    "description": "Send us the specs: we reply with a quote within 2 business days.",
+    "cta": "Get in touch"
+  },
+  "footer": {
+    "tagline": "Bathroom ceramics, made in Italy since 1987.",
+    "linksTitle": "Pages",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "demoNotice": "This is a demonstration project built by Plaster."
+  },
+  "prodotti": {
+    "eyebrow": "Products",
+    "title": "The full catalogue",
+    "intro": "Every line is available in several finishes. Technical sheets and samples available on request.",
+    "items": [
+      { "name": "Countertop basins", "description": "Diameters from 40 to 60 cm, in 6 finishes. Suited to residential and contract installations." },
+      { "name": "Wall-hung basins", "description": "Compact line, designed for smaller bathrooms without sacrificing comfort." },
+      { "name": "Stoneware tiles 20x20", "description": "Classic format, matte or glossy surface, frost-resistant for outdoor use." },
+      { "name": "Stoneware tiles 60x120", "description": "Large format for modern spaces, natural stone effect." },
+      { "name": "Volta tap series", "description": "Brushed brass finish, single-lever mixer." },
+      { "name": "Piana tap series", "description": "Essential design, also available in matte black." }
+    ]
+  },
+  "contatti": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your project",
+    "description": "Fill in the form with your specs: estimated quantity, timing and destination market. We reply within 2 business days.",
+    "formName": "Full name",
+    "formCompany": "Company",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSubmit": "Send request",
+    "directTitle": "Or reach out directly"
+  }
+}
