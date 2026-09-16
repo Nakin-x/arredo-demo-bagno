@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { setRequestLocale } from 'next-intl/server';
 import Eyebrow from '@/components/Eyebrow';
+import { catalogProductImages } from '@/data/productImages';
 
 export default async function ProdottiPage({
   params,
@@ -23,13 +24,20 @@ export default async function ProdottiPage({
         <p className="mt-4 text-sm leading-relaxed text-ink-soft">{t('intro')}</p>
       </div>
 
-      <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {items.map((item) => (
-          <div key={item.name} className="rounded-2xl border border-line bg-paper p-8">
-            <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
-              {item.name}
-            </h2>
-            <p className="mt-3 text-sm leading-relaxed text-ink-soft">{item.description}</p>
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {items.map((item, i) => (
+          <div key={item.name} className="overflow-hidden rounded-2xl border border-line bg-paper">
+            <img
+              src={catalogProductImages[i]}
+              alt={item.name}
+              className="aspect-[4/3] w-full object-cover"
+            />
+            <div className="p-8">
+              <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold">
+                {item.name}
+              </h2>
+              <p className="mt-3 text-sm leading-relaxed text-ink-soft">{item.description}</p>
+            </div>
           </div>
         ))}
       </div>

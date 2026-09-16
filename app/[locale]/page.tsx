@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import Eyebrow from '@/components/Eyebrow';
+import { homeProductImages } from '@/data/productImages';
 
 export default async function HomePage({
   params,
@@ -24,8 +25,8 @@ export default async function HomePage({
     <>
       {/* HERO */}
       <section className="relative overflow-hidden bg-clay-soft">
-        <div className="mx-auto max-w-6xl px-6 py-24 md:py-32">
-          <div className="max-w-2xl">
+      <div className="mx-auto grid max-w-6xl gap-12 px-6 py-24 md:grid-cols-2 md:items-center md:py-32">
+          <div>
             <Eyebrow>{hero('eyebrow')}</Eyebrow>
             <h1 className="mt-4 font-[family-name:var(--font-display)] text-4xl font-semibold leading-[1.15] tracking-tight text-ink sm:text-5xl">
               {hero('title')}
@@ -40,6 +41,12 @@ export default async function HomePage({
               {hero('cta')}
             </Link>
           </div>
+
+          <img
+            src="/images/hero.jpg"
+            alt="Showroom Terracqua"
+            className="aspect-[4/3] w-full rounded-2xl object-cover shadow-xl"
+          />
         </div>
       </section>
 
@@ -62,16 +69,23 @@ export default async function HomePage({
           {products('title')}
         </h2>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-3">
-          {productItems.map((item) => (
-            <div key={item.name} className="rounded-2xl border border-line bg-paper p-8">
-              <h3 className="font-[family-name:var(--font-display)] text-lg font-semibold">
-                {item.name}
-              </h3>
-              <p className="mt-3 text-sm leading-relaxed text-ink-soft">{item.description}</p>
-            </div>
-          ))}
-        </div>
+                <div className="mt-12 grid gap-6 sm:grid-cols-3">
+                  {productItems.map((item, i) => (
+                    <div key={item.name} className="overflow-hidden rounded-2xl border border-line bg-paper">
+                      <img
+                        src={homeProductImages[i]}
+                        alt={item.name}
+                        className="aspect-[4/3] w-full object-cover"
+                      />
+                      <div className="p-8">
+                        <h3 className="font-[family-name:var(--font-display)] text-lg font-semibold">
+                          {item.name}
+                        </h3>
+                        <p className="mt-3 text-sm leading-relaxed text-ink-soft">{item.description}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
       </section>
 
       {/* PROCESS */}
